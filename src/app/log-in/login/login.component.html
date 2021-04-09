@@ -1,0 +1,64 @@
+ <div id="app-content">
+    <div class="container-fluid ">
+      <div class="row">
+          <div class="col-sm-12" style="margin:auto;">
+              <div class=" container col-sm-4" style="margin:auto;">
+              </div>
+              <div class=" container col-sm-4">
+                  <div class="Login-Form">
+                      <header>
+                          <h1>Log in</h1>
+                          <p id="domain-url"></p>
+                      </header>
+                      <div class="form-login">
+                          <div class="form-group">
+                              <label for="usrname"><span class="glyphicon glyphicon-user"></span> Email Id</label>
+                              <input type="text" class="form-control" id="usrname" placeholder="Enter Email">
+                              <input type="hidden" class="form-control" id="domainToLogin">
+                          </div>
+                          <div class="form-group">
+                              <label for="psw"><span class="glyphicon glyphicon-eye-open"></span> Password</label>
+                              <input type="password" class="form-control" id="psw" placeholder="Enter password">
+                          </div>
+                          <div class="form-group margin-B-0 loginUser-div" style="max-height:40px !important">
+
+
+                                  <button id="loginUser" class="btn btn-primary btn-block ladda-button" style="width:100% !important;float:right" data-style="zoom-in">
+                              <div class="loginmsgs">
+
+                              <div class="loginPreloader loaderIcon" style="display:none;float:left;margin-left:4px;width:10%;">
+                                 <img src="/Content/images/preloader-trans.gif" style="width:12px !important;height:12px;">
+                              </div>
+                                  <div class="displaymsg"><span class="ladda-label " id="success-msg">Login</span></div>
+
+                                      </div>
+
+
+                                  </button><br>
+
+                              </div>
+                              <div class="checkbox">
+                                  <label><input type="checkbox" value="">Keep me logged in</label>
+                              </div>
+
+
+                              <div class="alert alert-danger alert-dismissable" id="fail-msg-div" style="display:none;text-align:center;">
+                                  <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                                  <span id="fail-msg"></span>
+                              </div>
+                          </div>
+                          <div class="form-helper">
+                            <a href="javascript:void(0)" class="float-right" (click)="GoToforgotpassword()">Forgot Password?</a>
+                          </div>
+                          <div class="form-helper">
+                        <a href="javascript:void(0)" (click)="GoToCreateAccount()">Create an Account</a>
+                          </div>
+                      </div>
+                  </div>
+                  <div class=" container col-sm-4" style="margin:auto;">
+                  </div>
+              </div>
+          </div>
+      </div>
+
+          </div>
