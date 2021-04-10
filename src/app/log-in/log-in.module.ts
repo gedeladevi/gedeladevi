@@ -4,6 +4,7 @@ import { LoginComponent } from './login/login.component';
 import { Router, RouterModule, Routes } from '@angular/router';
 import { ForgotPasswordComponent } from './forgot-password/forgot-password.component';
 import { CreateaccountComponent } from './createaccount/createaccount.component';
+import { SubscriptionComponent } from './subscription/subscription.component';
 
 const routes: Routes = [
   {
@@ -22,13 +23,16 @@ const routes: Routes = [
     path: 'ForgotPassword',
     component: ForgotPasswordComponent
   },
+
 ];
 
 @NgModule({
   declarations: [
     LoginComponent,
     ForgotPasswordComponent,
-    CreateaccountComponent
+    CreateaccountComponent,
+    SubscriptionComponent,
+
   ],
   imports: [
     CommonModule,

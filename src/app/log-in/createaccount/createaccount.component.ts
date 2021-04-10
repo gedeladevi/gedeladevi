@@ -18,6 +18,9 @@ export class CreateaccountComponent implements OnInit {
   GoToForgotPassword(): void {
     this.router.navigate(['/ForgotPassword']);
   }
+  GoTosubscription(): void{
+    this.router.navigate(['/subscription']);
+}
 }
 
 

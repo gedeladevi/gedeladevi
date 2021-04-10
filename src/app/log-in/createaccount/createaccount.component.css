@@ -25,7 +25,9 @@
   font-weight: bold;
 }
 .control-label {
-  text-align: left !important;
+  text-align: left;
+  font-weight: 600;
+  width:80%;
 }
 .h5 {
   display: block;
@@ -49,4 +51,15 @@ h1, h2, h3, h4, h5, h6 {
   box-shadow: 0px 2px 2px rgb(0 0 0 / 30%);
   background: #f7f7f7e5;
   padding: 30px;
+}
+.form-inline label {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin-bottom: 0;
+}
+.form-inline .form-control {
+  display: inline-block;
+  width: 80%;
+  vertical-align: middle;
 }
