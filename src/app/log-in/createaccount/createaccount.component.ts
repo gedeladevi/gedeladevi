@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-
 @Component({
   selector: 'app-createaccount',
   templateUrl: './createaccount.component.html',
@@ -12,16 +11,17 @@ export class CreateaccountComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  GoTologin(): void {
-    this.router.navigate(['/login']);
-  }
-  GoToForgotPassword(): void {
-    this.router.navigate(['/ForgotPassword']);
-  }
-  GoTosubscription(): void{
-    this.router.navigate(['/subscription']);
+   GoTologin(): void {
+     this.router.navigate(['/login']);
+   }
+   GoToForgotPassword(): void {
+     this.router.navigate(['/ForgotPassword']);
+   }
+
+GoTosubscription(): void {
+    this.router.navigate(['/Subscription']);
 }
-}
+ }
 
 
 

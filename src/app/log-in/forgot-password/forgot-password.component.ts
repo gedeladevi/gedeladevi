@@ -12,9 +12,9 @@ export class ForgotPasswordComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  GoTologin(): void {
+   GoTologin(): void {
     this.router.navigate(['/login']);
-  }
+   }
   GoToForgotPassword(): void {
     this.router.navigate(['/ForgotPassword']);
   }

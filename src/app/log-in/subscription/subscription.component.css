@@ -1,0 +1,25 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 10px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff8f8ee !important;
+}
+.subscribe{
+  box-shadow: 2px 2px 2px  rgb(0 0 0 / 30%);
+  background: #faf6f6e5;
+  padding: 20px;
+}
+.seperator {
+  margin-top: -20px;
+  box-shadow: 2px 2px 2px 2px rgb(0 0 0 / 30%);
+
+}
+.signup-form {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border-bottom-right-radius: 0;
+  box-shadow: 5px 0px 40px rgb(0 0 0 / 20%);
+
+}

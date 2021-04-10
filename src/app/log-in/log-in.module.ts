@@ -5,6 +5,8 @@ import { Router, RouterModule, Routes } from '@angular/router';
 import { ForgotPasswordComponent } from './forgot-password/forgot-password.component';
 import { CreateaccountComponent } from './createaccount/createaccount.component';
 import { SubscriptionComponent } from './subscription/subscription.component';
+import { FreeMembershipComponent } from './free-membership/free-membership.component';
+import { FullMembershipComponent } from './full-membership/full-membership.component';
 
 const routes: Routes = [
   {
@@ -23,6 +25,18 @@ const routes: Routes = [
     path: 'ForgotPassword',
     component: ForgotPasswordComponent
   },
+  {
+    path: 'Subscription',
+    component: SubscriptionComponent
+  },
+  {
+    path: 'FreeMembership',
+    component: FreeMembershipComponent
+  },
+  {
+    path: 'FreeMembership',
+    component: FreeMembershipComponent
+  }
 
 ];
 
@@ -32,7 +46,8 @@ const routes: Routes = [
     ForgotPasswordComponent,
     CreateaccountComponent,
     SubscriptionComponent,
-
+    FreeMembershipComponent,
+    FullMembershipComponent
   ],
   imports: [
     CommonModule,
