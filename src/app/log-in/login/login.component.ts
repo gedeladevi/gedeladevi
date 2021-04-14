@@ -14,10 +14,10 @@ export class LoginComponent implements OnInit {
 
   }
  GoToCreateAccount(): void {
-    this.router.navigate(['/CreateAccount']);
+    this.router.navigate(['/createaccount']);
   }
   GoToforgotpassword(): void {
-    this.router.navigate(['/ForgotPassword']);
+    this.router.navigate(['/forgot-password']);
   }
   }
 

@@ -1,0 +1,24 @@
+.navbar-right{
+  display: contents;
+  float: right;
+}
+.nav1{
+  box-shadow: 0px 2px 2px rgb(0 0 0 / 30%);
+  background: #f7f7f7;
+  padding: 0px;
+}
+.image{
+  width:100%;
+  height:50%;
+  background-size: cover;
+
+}
+/* body {
+
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(67,32,194,0.7514356084230567) 43%, rgba(0,212,255,1) 100%);
+} */
+ /* .image{
+  background-image: url ("../../src/assets/australiaflag.png");
+  height: 650px;
+  background-size: cover;
+} */

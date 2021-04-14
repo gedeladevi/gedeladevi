@@ -15,11 +15,11 @@ export class CreateaccountComponent implements OnInit {
      this.router.navigate(['/login']);
    }
    GoToForgotPassword(): void {
-     this.router.navigate(['/ForgotPassword']);
+     this.router.navigate(['/forgot-password']);
    }
 
 GoTosubscription(): void {
-    this.router.navigate(['/Subscription']);
+    this.router.navigate(['/subscription']);
 }
  }
 

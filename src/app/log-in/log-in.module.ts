@@ -8,6 +8,7 @@ import { SubscriptionComponent } from './subscription/subscription.component';
 import { FreeMembershipComponent } from './free-membership/free-membership.component';
 import { FullMembershipComponent } from './full-membership/full-membership.component';
 
+
 const routes: Routes = [
   {
     path: '',
@@ -18,25 +19,26 @@ const routes: Routes = [
     component: LoginComponent
   },
   {
-    path: 'CreateAccount',
+    path: 'createaccount',
     component: CreateaccountComponent
   },
   {
-    path: 'ForgotPassword',
+    path: 'forgot-password',
     component: ForgotPasswordComponent
   },
   {
-    path: 'Subscription',
+    path: 'subscription',
     component: SubscriptionComponent
   },
   {
-    path: 'FreeMembership',
+    path: 'free-membership',
     component: FreeMembershipComponent
   },
   {
-    path: 'FreeMembership',
-    component: FreeMembershipComponent
-  }
+    path: 'full-membership',
+    component: FullMembershipComponent
+  },
+
 
 ];
 
@@ -47,7 +49,8 @@ const routes: Routes = [
     CreateaccountComponent,
     SubscriptionComponent,
     FreeMembershipComponent,
-    FullMembershipComponent
+    FullMembershipComponent,
+
   ],
   imports: [
     CommonModule,

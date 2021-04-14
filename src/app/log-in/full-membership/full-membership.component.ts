@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router, Routes } from '@angular/router';
 
 @Component({
   selector: 'app-full-membership',
@@ -7,9 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FullMembershipComponent implements OnInit {
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit(): void {
+  }
+  GoTOdashboard(): void{
+    this.router.navigate(['/dashboard']);
   }
 
 }
