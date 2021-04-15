@@ -12,7 +12,7 @@ export class FullMembershipComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  GoTOdashboard(): void{
+  GoTodashboard(): void{
     this.router.navigate(['/dashboard']);
   }
 

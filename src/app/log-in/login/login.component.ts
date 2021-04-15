@@ -19,6 +19,12 @@ export class LoginComponent implements OnInit {
   GoToforgotpassword(): void {
     this.router.navigate(['/forgot-password']);
   }
+
+    GoToMainpage(): void {
+      this.router.navigate(['/mainpage']);
+
+    }
   }
+
 
 
