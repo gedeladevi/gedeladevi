@@ -13,8 +13,12 @@ body {
 .seperator {
   margin-top: -20px;
   box-shadow: 2px 2px 2px 2px rgb(0 0 0 / 30%);
-
 }
+ .btn {
+  min-height: 38px;
+  border-radius: 15px;
+}
+
 .signup-form {
   margin-left: 10px;
   margin-right: 10px;
