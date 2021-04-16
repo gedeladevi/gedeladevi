@@ -51,13 +51,23 @@
   min-height: 38px;
   border-radius: 15px;
 }
-  .Login-Form{
+    .Login-Form{
     box-shadow: 0px 2px 2px rgb(0 0 0 / 30%);
-    background: #f7f7f7;
-    padding: 30px;
+    background: #d4c3db;
+    padding: 25px;
 }
 checkbox {
   float: left;
   margin-left: -20px;
+}
+
+#backgroundchange{
+  position: relative;
+}
+#loginimg {
+  position: absolute;
+    top: 28%;
+    right: 44%;
+    width: 32%;
 }
 
